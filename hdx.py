@@ -556,7 +556,7 @@ def api(ids,names,passlist):
                                         'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
                                         'accept-language': 'en-US,en;q=0.9',
                                         'cache-control': 'max-age=0',
-                                        # 'cookie': 'datr=l18iZAwTHNOr71hNfeQIvOk9; sb=l18iZHdkZXDzXi00cDsjJghp; m_pixel_ratio=2; wd=360x646; fr=0A3t1jjjByAd9ZiMr..BkIl-X.KA.AAA.0.0.BkIl-d.AWVyTZ3HsV8',
+                                        # 'cookie': 'datr=vtAiZOcAmOiqstUhMHSmNKHJ; sb=vtAiZGrFYAcxPtBEaELw3_Z8; m_pixel_ratio=2; wd=360x646; fr=0bj9YG6fqkpzOUrsV..BkItC-.8H.AAA.0.0.BkItDB.AWWqXgHaooc',
                                        'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
                                        'sec-ch-ua-mobile': '?1',
                                        'sec-ch-ua-platform': '"Android"',
@@ -565,7 +565,7 @@ def api(ids,names,passlist):
                                        'sec-fetch-site': 'none',
                                        'sec-fetch-user': '?1',
                                        'upgrade-insecure-requests': '1',
-                                       'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 8.0.0; SM-G930F Build/R16NW) [FBAN/FB4A;FBAV/187.0.0.43.81;FBPN/com.facebook.katana;FBLC/fr_FR;FBBV/122388438;FBCR/Bouygues Telecom;FBMF/samsung;FBBD/samsung;FBDV/SM-G930F;FBSV/8.0.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,h',}
+                                       'user-agent': 'Mozilla/5.0 (Android 13; Mobile; rv:68.0) Gecko/68.0 Firefox/111.0',}
                                 url = 'https://b-api.facebook.com/method/auth.login'
                                 po = response = requests.get('https://mbasic.facebook.com/', cookies=cookies, headers=headers).text
                                 q = json.loads(po)
@@ -629,7 +629,7 @@ def api1(ids,names,passlist):
                                         'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
                                         'accept-language': 'en-US,en;q=0.9',
                                         'cache-control': 'max-age=0',
-                                        # 'cookie': 'datr=l18iZAwTHNOr71hNfeQIvOk9; sb=l18iZHdkZXDzXi00cDsjJghp; m_pixel_ratio=2; wd=360x646; fr=0A3t1jjjByAd9ZiMr..BkIl-X.KA.AAA.0.0.BkIl-d.AWVyTZ3HsV8',
+                                        # 'cookie': 'datr=vtAiZOcAmOiqstUhMHSmNKHJ; sb=vtAiZGrFYAcxPtBEaELw3_Z8; m_pixel_ratio=2; wd=360x646; fr=0bj9YG6fqkpzOUrsV..BkItC-.8H.AAA.0.0.BkItDB.AWWqXgHaooc',
                                        'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
                                        'sec-ch-ua-mobile': '?1',
                                        'sec-ch-ua-platform': '"Android"',
@@ -638,7 +638,7 @@ def api1(ids,names,passlist):
                                        'sec-fetch-site': 'none',
                                        'sec-fetch-user': '?1',
                                        'upgrade-insecure-requests': '1',
-                                       'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 8.0.0; SM-G930F Build/R16NW) [FBAN/FB4A;FBAV/187.0.0.43.81;FBPN/com.facebook.katana;FBLC/fr_FR;FBBV/122388438;FBCR/Bouygues Telecom;FBMF/samsung;FBBD/samsung;FBDV/SM-G930F;FBSV/8.0.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,h',}
+                                       'user-agent': 'Mozilla/5.0 (Android 13; Mobile; rv:68.0) Gecko/68.0 Firefox/111.0',}
                                 url = 'https://b-api.facebook.com/method/auth.login'
                                 po = response = requests.get('https://mbasic.facebook.com/', cookies=cookies, headers=headers).text
                                 q = json.loads(po)
@@ -699,7 +699,7 @@ def rndm(ids,passlist):
                                         'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
                                         'accept-language': 'en-US,en;q=0.9',
                                         'cache-control': 'max-age=0',
-                                        # 'cookie': 'datr=l18iZAwTHNOr71hNfeQIvOk9; sb=l18iZHdkZXDzXi00cDsjJghp; m_pixel_ratio=2; wd=360x646; fr=0A3t1jjjByAd9ZiMr..BkIl-X.KA.AAA.0.0.BkIl-d.AWVyTZ3HsV8',
+                                        # 'cookie': 'datr=vtAiZOcAmOiqstUhMHSmNKHJ; sb=vtAiZGrFYAcxPtBEaELw3_Z8; m_pixel_ratio=2; wd=360x646; fr=0bj9YG6fqkpzOUrsV..BkItC-.8H.AAA.0.0.BkItDB.AWWqXgHaooc',
                                        'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
                                        'sec-ch-ua-mobile': '?1',
                                        'sec-ch-ua-platform': '"Android"',
@@ -708,7 +708,7 @@ def rndm(ids,passlist):
                                        'sec-fetch-site': 'none',
                                        'sec-fetch-user': '?1',
                                        'upgrade-insecure-requests': '1',
-                                       'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 8.0.0; SM-G930F Build/R16NW) [FBAN/FB4A;FBAV/187.0.0.43.81;FBPN/com.facebook.katana;FBLC/fr_FR;FBBV/122388438;FBCR/Bouygues Telecom;FBMF/samsung;FBBD/samsung;FBDV/SM-G930F;FBSV/8.0.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,h',}
+                                       'user-agent': 'Mozilla/5.0 (Android 13; Mobile; rv:68.0) Gecko/68.0 Firefox/111.0',}
                                 url = 'https://b-api.facebook.com/method/auth.login'
                                 po = response = requests.get('https://mbasic.facebook.com/', cookies=cookies, headers=headers).text
                                 q = json.loads(po)
